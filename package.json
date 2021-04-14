@@ -1,6 +1,6 @@
 {
   "name": "ajv-cli-custom",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Supply custom keywords and format names to ajv-cli via a json file",
   "main": "index.js",
   "scripts": {

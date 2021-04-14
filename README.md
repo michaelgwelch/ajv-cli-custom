@@ -1,4 +1,4 @@
-# ajv-cli-custom-keywords
+# ajv-cli-custom
 
 Inform `ajv-cli` of your custom keywords and format names via a JSON file.
 
@@ -17,8 +17,9 @@ Then create a file named `customs.json` in the same directory you wish to run th
     "keywords": ["keyword1", "keyword2"],
     "formats": ["format1", "format2"]
 }
+```
 
-Finally, invoke `ajv` using the `-c` option to specify this module. For example to compile a schema:
+Finally, invoke `ajv` using the `-c` option to specify this module. For example:
 
 ```bash
 ajv compile -s myschema.schema.json -c ajv-cli-custom
