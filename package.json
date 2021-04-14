@@ -1,0 +1,28 @@
+{
+  "name": "ajv-cli-custom",
+  "version": "1.0.0",
+  "description": "Supply custom keywords and format names to ajv-cli via a json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelgwelch/ajv-cli-custom.git"
+  },
+  "keywords": [
+    "ajv",
+    "ajv-cli",
+    "custom",
+    "keywords"
+  ],
+  "author": "Michael Welch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelgwelch/ajv-cli-custom/issues"
+  },
+  "homepage": "https://github.com/michaelgwelch/ajv-cli-custom#readme",
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
+}
